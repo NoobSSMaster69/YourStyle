@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Image</title>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/insertImage.css}"/>
+
+</head>
+<body>
+
+<!--<div class="sales__item" th:if="${image.getImage_data().isEmpty()}" th:each="image:${imageDAO.getImagesById(id)}">-->
+<!--    <div class="item__image">-->
+<!--        <img th:src="@{/image/{id}/{num}(num=${image.getImage_number()})}" alt="">-->
+<!--    </div>-->
+<!--</div>-->
+
+<label class="drop-container" id="dropzone">
+    <span class="drop-title" >Drop files here</span>
+    or
+    <form id="demo-upload" th:method="POST" action="#" th:action="@{/shop/product/insert/image}" enctype="multipart/form-data">
+        <!--    <p>Enter number: <input th:type="number" th:field="*{image_number}" /></p>-->
+
+        <input th:type="file" th:name="file"  />
+<!--        <input th:if="${imageDAO.getMainImageById(id).isEmpty()}" th:type="radio" th:name="main" th:value=1>-->
+        <input class="submit" type="submit" value="Submit"/>
+    </form>
+
+</label>
+
+</body>
+</html>

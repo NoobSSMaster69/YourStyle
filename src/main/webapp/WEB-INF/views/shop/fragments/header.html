@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/style.css}"/>
+</head>
+<body>
+    <header class="header" th:fragment="header">
+        <div class="header__container">
+            <div class="header__body">
+                <div class="header__row">
+                    <div class="header__links">
+                        <a class= 'header__link' href="#">Категории</a>
+                        <a class= 'header__link' href="#">Оплата и доставка</a>
+                        <a class= 'header__link' href="#">Отзывы</a>
+                    </div>
+
+                    <div class="header__logo">
+                        Твой <span>Стиль</span>
+                    </div>
+
+                    <div class="header__icon">
+                        <img th:src="@{/resources/static/img/header/01.svg}"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script
+            th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+            crossorigin="anonymous"></script>
+    <script th:src="@{/resources/static/js/slick.min.js}"></script>
+    <script th:src="@{/resources/static/js/script.js}"></script>
+
+</body>
+</html>

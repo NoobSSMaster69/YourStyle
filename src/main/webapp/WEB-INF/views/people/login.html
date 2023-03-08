@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
+    <link rel="stylesheet" th:href="@{/resources/static/css/login.css}">
+    <title>template</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <div class="login">
+            <div class="login__container">
+                <div class="header__logo">
+                    <a th:href="@{/shop/main}">Твой <span>Стиль</span></a>
+                </div>
+                <div class="login__body">
+                    <div class="login__registration">
+                        <form class="login__forms" action="#">
+
+                            <div class="login__mail">
+                                <div class="text">Email / Phone</div>
+                                <input type="text" name ='mail' style="font-size: 15px;" placeholder="Введите email или телефон">
+                            </div>
+                            
+                            <div class="login__password">
+                                <div class="text">Password</div>
+                                <input type="text" name ='password' style="font-size: 15px;"  placeholder="Введите пароль">
+                            </div>
+                            <div class="login__checkbox">
+                                 <input type="checkbox"  value = '1' name="namecheckbox"> 
+                                 <div class="checkbox__text">Remember me </div>
+                                 <div class="checkbox__question">Забыли пароль? </div>
+                            </div>
+                            <div class="login__buttons">
+                                <button class = "submit" type="submit">Войти</button>
+                                <a  class = 'registration__link' th:href="@{/people/registration}">Зарегистрироваться</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<script
+  th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script th:src="@{/resources/static/js/slick.min.js}"></script>
+<script th:src="@{/resources/static/js/script.js}"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #000;
+  font-family: "Rubik";
+  font-weight: 500;
+  cursor: default;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+[class*=__container] {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (max-width: 1087px) {
+  [class*=__container] {
+    max-width: 970px;
+  }
+}
+@media (max-width: 991.98px) {
+  [class*=__container] {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  [class*=__container] {
+    max-width: none;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  min-height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.header__logo {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  max-width: 100px;
+  margin: 0 auto;
+  top: 105px;
+  right: 20px;
+}
+.header__logo span {
+  color: #d21f3c;
+  position: absolute;
+  left: 15px;
+  top: 35px;
+  font-weight: 800;
+}
+.header__logo span::before {
+  content: "";
+  position: absolute;
+  width: 115%;
+  border-top: 2px solid #000;
+  right: 0;
+}
+
+.login__registration {
+  padding: 50px;
+}
+
+.login__forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.login__mail input {
+  display: inline;
+  border: 1px solid #000;
+  width: 100%;
+  padding: 15px 0 15px 20px;
+}
+
+.login__password input {
+  display: inline;
+  border: 1px solid #000;
+  width: 100%;
+  padding: 15px 0 15px 20px;
+}
+
+.login__body {
+  max-width: 450px;
+  height: 600px;
+  margin: 0 auto;
+  -webkit-transform: translate(0, calc(50% - 132.5px));
+          transform: translate(0, calc(50% - 132.5px));
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login__buttons {
+  position: relative;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.submit {
+  padding: 15px 80px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: azure;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d21f3c;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.submit:hover {
+  background-color: rgb(133, 4, 26);
+}
+
+.registration__link {
+  padding: 15px 80px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #000;
+  border: 0.5px solid #000;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.registration__link:hover {
+  background-color: rgba(73, 73, 73, 0.2);
+}
+
+.login__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.checkbox__text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.checkbox__question {
+  color: #d21f3c;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 60px;
+}
+.checkbox__question:hover {
+  text-decoration: underline;
+}

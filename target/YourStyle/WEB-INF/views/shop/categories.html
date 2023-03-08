@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
+  <link rel="stylesheet" href="" th:href="@{/resources/static/css/categories.css}"/>
+  <title>Categories</title>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__body">
+        <div class="header__row">
+          <div class="header__links">
+            <a class= 'header__link' href="#">Категории</a>
+            <a class= 'header__link' href="pay.html">Оплата и доставка</a>
+            <a class= 'header__link' href="reviews.html">Отзывы</a>
+
+          </div>
+
+          <div class="header__logo">
+            <a href="index.html">Твой <span>Стиль</span></a>
+          </div>
+
+          <div class="header__icon">
+            <img class = 'header__basket' th:src="@{/resources/static/img/header/01.svg}" alt="">
+
+            <a href="login.html"><img class = 'header__login' th:src="@{/resources/static/img/header/user_negate.png}" width="40px" height="40px" alt=""></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="main">
+    <div class="main__container">
+
+      <div class="categories">
+        <div class="categories__title">
+          Категории
+        </div>
+        <div class="categories__products">
+          <ul class="categories__list">
+            <li class="categories__item">
+              <a href="">Футболки</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Рубашки,блузы</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Платья</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Юбки</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Джинсы</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Шорты</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Брюки</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Толстовки,свитеры</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Купальники</a>
+            </li>
+            <li class="categories__item">
+              <a href="">Куртки,пальто</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="sales">
+        <form class ='sales__form' action="#" id = 'searchform'>
+          <input type="text" class="search-txt" placeholder="Type to search">
+          <button type = 'submit' class="search__submit" form = 'searchform'>
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <div class="filter__block">
+          <div class="filter__title">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+
+          <div class="filter__sub">
+            <ul>
+              <li><a class="shop">Мужское</a></li>
+              <li><a class="shop">Женское</a></li>
+              <li><a class="shop">Детское</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="sales__body">
+          <div class="sales__items">
+            <div class="sales__item" th:each="prod:${products}">
+              <div class="item__image">
+                <img th:src="@{/image/{id}(id=${prod.getProduct_id()})}" alt="">
+                <div class="image__sale">
+                  -20%
+                </div>
+              </div>
+              <div class="item__text">
+                <div class="item__name" th:text="${prod.getProduct_name()}">
+                  Костюм для девочки
+                </div>
+
+                <div class="item__price">
+                  <div class="defoult__price">599 ₽</div>
+                  <div class="sale__price">719 ₽</div>
+                </div>
+
+                <div class="item__buttons">
+                  <a href="#"><div class="buttons__view">Смотреть</div></a>
+                  <div class="buttons__basket">В корзину</div>
+                </div>
+              </div>
+            </div>
+<!--            <div class="sales__item">-->
+<!--              <div class="item__image">-->
+<!--                <img th:src="@{/resources/static/img/stocks/02.png}" alt="">-->
+<!--                <div class="image__sale">-->
+<!--                  -20%-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="item__text">-->
+<!--                <div class="item__name">-->
+<!--                  Костюм для девочки-->
+<!--                </div>-->
+
+<!--                <div class="item__price">-->
+<!--                  <div class="defoult__price">599 ₽</div>-->
+<!--                  <div class="sale__price">719 ₽</div>-->
+<!--                </div>-->
+
+<!--                <div class="item__buttons">-->
+<!--                  <a href="buypage.html"><div class="buttons__view">Смотреть</div></a>-->
+<!--                  <div class="buttons__basket">В корзину</div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="sales__item">-->
+<!--              <div class="item__image">-->
+<!--                <img th:src="@{/resources/static/img/stocks/02.png}" alt="">-->
+<!--                <div class="image__sale">-->
+<!--                  -20%-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="item__text">-->
+<!--                <div class="item__name">-->
+<!--                  Костюм для девочки-->
+<!--                </div>-->
+
+<!--                <div class="item__price">-->
+<!--                  <div class="defoult__price">599 ₽</div>-->
+<!--                  <div class="sale__price">719 ₽</div>-->
+<!--                </div>-->
+
+<!--                <div class="item__buttons">-->
+<!--                  <a href="buypage.html"><div class="buttons__view">Смотреть</div></a>-->
+<!--                  <div class="buttons__basket">В корзину</div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="sales__items">-->
+<!--            <div class="sales__item">-->
+<!--              <div class="item__image">-->
+<!--                <img th:src="@{/resources/static/img/stocks/02.png}" alt="">-->
+<!--                <div class="image__sale">-->
+<!--                  -20%-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="item__text">-->
+<!--                <div class="item__name">-->
+<!--                  Костюм для девочки-->
+<!--                </div>-->
+
+<!--                <div class="item__price">-->
+<!--                  <div class="defoult__price">599 ₽</div>-->
+<!--                  <div class="sale__price">719 ₽</div>-->
+<!--                </div>-->
+
+<!--                <div class="item__buttons">-->
+<!--                  <a href="buypage.html"><div class="buttons__view">Смотреть</div></a>-->
+<!--                  <div class="buttons__basket">В корзину</div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="sales__item">-->
+<!--              <div class="item__image">-->
+<!--                <img th:src="@{/resources/static/img/stocks/02.png}" alt="">-->
+<!--                <div class="image__sale">-->
+<!--                  -20%-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="item__text">-->
+<!--                <div class="item__name">-->
+<!--                  Костюм для девочки-->
+<!--                </div>-->
+
+<!--                <div class="item__price">-->
+<!--                  <div class="defoult__price">599 ₽</div>-->
+<!--                  <div class="sale__price">719 ₽</div>-->
+<!--                </div>-->
+
+<!--                <div class="item__buttons">-->
+<!--                  <a href="buypage.html"><div class="buttons__view">Смотреть</div></a>-->
+<!--                  <div class="buttons__basket">В корзину</div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="sales__item">-->
+<!--              <div class="item__image">-->
+<!--                <img th:src="@{/resources/static/img/stocks/02.png}" alt="">-->
+<!--                <div class="image__sale">-->
+<!--                  -20%-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="item__text">-->
+<!--                <div class="item__name">-->
+<!--                  Костюм для девочки-->
+<!--                </div>-->
+
+<!--                <div class="item__price">-->
+<!--                  <div class="defoult__price">599 ₽</div>-->
+<!--                  <div class="sale__price">719 ₽</div>-->
+<!--                </div>-->
+
+<!--                <div class="item__buttons">-->
+<!--                  <a href="buypage.html"><div class="buttons__view">Смотреть</div></a>-->
+<!--                  <div class="buttons__basket">В корзину</div>-->
+<!--                </div>-->
+<!--              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="footer">
+    <div class="header__container">
+      <div class="footer__row">
+        <div class="footer__logo">
+          Твой <span>Стиль</span>
+        </div>
+
+        <div class="footer__text">
+          Руководитель организации: генеральный директор
+          Солонар Сергій Михайлович. Юридический адрес
+          ПАО "Детский Мир" - 119415, город Москва, проспект
+          Вернадского, 37-3.
+          Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО
+          "ДЕТСКИЙ МИР" присвоены ИНН 7729355029,
+          ОГРН 1027700047100, ОКПО 47568073.
+        </div>
+
+        <div class="footer__images">
+          <img th:src="@{/resources/static/img/footer/инст 3.svg}" alt="">
+          <img th:src="@{/resources/static/img/footer/инст 3.svg}" alt="">
+          <img th:src="@{/resources/static/img/footer/инст 3.svg}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script
+        th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+        crossorigin="anonymous"></script>
+<script th:src="@{/resources/static/js/slick.min.js}"></script>
+<script th:src="@{https://kit.fontawesome.com/d09046bc62.js}" crossorigin="anonymous"></script>
+<script th:src="@{/resources/static/js/script.js}"></script>
+</body>
+</html>

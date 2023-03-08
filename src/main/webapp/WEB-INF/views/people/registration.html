@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
+    <link rel="stylesheet" th:href="@{/resources/static/css/registration.css}">
+    <title>template</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <div class="login">
+            <div class="login__container">
+                <div class="header__logo">
+                    <a th:href="@{/shop/main}">Твой <span>Стиль</span></a>
+                </div>
+                <div class="registration__body">
+                   <div class="registration__item">
+                    <div class="registration__sign">
+                        Sign up
+                    </div>
+                    <div class="registration__form">
+                        <form  class ='form' action="#" th:action="@{/person/registration}" th:object="person" th:method="POST">
+                
+                            <input th:type="text" th:name ='username' style="font-size: 20px;" th:placeholder="Username">
+
+                    
+                            <input th:type="text" th:name ='mail' style="font-size: 20px;" th:placeholder="E-mail">
+
+                         
+                            <input th:type="text" th:name ='password' style="font-size: 20px;" th:placeholder="Password">
+
+                            
+                            <input th:type="text" th:name ='retype' style="font-size: 20px;" th:placeholder="Retype password">
+
+                            <div class="registration__buttons">
+                                <button class = "registration__submit" type="submit">Зарегистрироваться</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+
+                   </div>
+
+                   <div class="registration__item registration__item_back">
+                    <div class="registration__media">
+                        Sign in with social network
+                    </div>
+                    <div class="registration__bymedia">
+                        <div class="button__media button__media_facebook">Log in with Facebook</div>
+                        <div class="button__media button__media_twitter">Log in with Twitter</div>
+                        <div class="button__media button__media_google">Log in with Google+</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<script
+  th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script th:src="@{/resources/static/js/slick.min.js}"></script>
+<script th:src="@{/resources/static/js/script.js}"></script>
+</body>
+</html>

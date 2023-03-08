@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
+    <link rel="stylesheet" th:href="@{/resources/static/css/buypage.css}">
+    <title>template</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__body">
+                <div class="header__row">
+                    <div class="header__links">
+                        <a class= 'header__link' href="#">Категории</a>
+                        <a class= 'header__link' th:href="@{/shop/pay}">Оплата и доставка</a>
+                        <a class= 'header__link' th:href="@{/shop/reviews}">Отзывы</a>
+                    </div>
+                
+                    <div class="header__logo">
+                        <a th:href="@{/shop/main}">Твой <span>Стиль</span></a>
+                     </div>
+                    
+                    <div class="header__icon">
+                        <img class = 'header__basket' th:src="@{/resources/img/header/01.svg}"  alt="">
+
+                        <a th:href="@{/people/login}"><img class = 'header__login' th:src="@{/resources/static/img/header/user01.png}" width="40px" height="40px" alt=""></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+   
+    </header>
+
+    <div class="main">
+        <div class="buypage">
+            <div class="buypage__container">
+                <div class="buypage__title" th:text="${product.getProduct_name}">Product not found</div>
+                <div class="buypage__row">
+                    <div class="buypage__slider">
+                        <div class="buypage__item">
+                            <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        </div>
+                        
+                        <div class="buypage__item">
+                            <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        </div>
+            
+                        <div class="buypage__item">
+                            <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        </div>
+            
+                        <div class="buypage__item">
+                            <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        </div>
+
+                        <div class="buypage__item">
+                            <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        </div>
+                    </div>
+                    <div class="buypage__body">
+                        <div class="buypage__price">
+                            365 UAH
+                        </div>
+                        <div class="buypage__about" th:text="${product.getProduct_about()}">None</div>
+                
+
+                        <div class="buypage__calc">
+                            <form class="form">
+                                <p class="form__text">Выберите размер:</p>
+                                <select class="form__select" id="selectProduct" >
+                                  <option value="" selected disabled>Выбрать из списка</option>
+                                  <option value="365">XS(365 UAH)</option>
+                                  <option value="365">S(365 UAH)</option>
+                                  <option value="365">M(365 UAH)</option>
+                                  <option value="425">L(465 UAH)</option>
+                                  <option value="525">XL(565 UAH)</option>
+                                  <option value="625">2XL(665 UAH)</option>
+                                  <option value="725">3XL(765 UAH)</option>
+                                  <option value="825">4XL(865 UAH)</option>
+                                  <option value="925">5XL(965 UAH)</option>
+                                </select>
+
+                                <div class="buypage__counter">
+                                     <p class="form__text"> Укажите количество:</p>
+                                    <input id="quantityProduct" class="form__input" type="number" value="0" min = '0'>
+                                </div>
+                              
+                              <button type = 'button' class="link" id="btcProduct">Рассчитать</button>
+                            </form>
+                      
+                              <div id = 'infoProduct' class="total" style="display: none;">
+                                <p class="total__price">Итог: <span id="priceProduct"></span></p>
+                                <p class="total__mail">Оставьте заявку по почте:</br><a class = "total__link" href="#">hyisosi@gmail.com</a></p>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recomendation">
+                <div class="recomendation__container">
+                    <div class="recomendation__title">
+                    рекомендуем к покупке
+                </div>
+                <div class="recomendation__slider">
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recomendation__item">
+                        <img th:src="@{/image/{id}(id=${product.getProduct_id()})}" alt="">
+                        <div class="recomendation__about">
+                            <div class="recomendation__price">
+                                111 UAH
+                            </div>
+                            <div class="recomendation__name">
+                                Худи
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="header__container">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    Твой <span>Стиль</span>
+                </div>
+    
+                <div class="footer__text">
+                    Руководитель организации: генеральный директор 
+                    Солонар Сергій Михайлович. Юридический адрес 
+                    ПАО "Детский Мир" - 119415, город Москва, проспект 
+                    Вернадского, 37-3.
+                    Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО 
+                    "ДЕТСКИЙ МИР" присвоены ИНН 7729355029, 
+                    ОГРН 1027700047100, ОКПО 47568073. 
+                </div>
+    
+                <div class="footer__images">
+                    <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
+                    <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
+                    <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<script
+  th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script th:src="@{/resources/static/js/slick.min.js}"></script>
+<script th:src="@{/resources/static/js/script.js}"></script>
+</body>
+</html>
