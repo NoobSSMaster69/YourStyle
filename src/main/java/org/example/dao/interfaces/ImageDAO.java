@@ -20,4 +20,5 @@ public interface ImageDAO {
 
     void createImage(Image image);
 
+    Image getDefaultProductImage();
 }

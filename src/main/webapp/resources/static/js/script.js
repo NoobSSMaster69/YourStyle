@@ -94,6 +94,12 @@ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</di
 
     });
 
+    jQuery(".menu-btn").on("click",function (e) {
+        e.preventDefault();
+        jQuery(this).toggleClass("menu-btn_active");
+    });
+
+
 });
 
 
@@ -115,5 +121,4 @@ function calcCost(){
     document.getElementById('infoProduct').style.display = 'flex';
 
 }
-
 

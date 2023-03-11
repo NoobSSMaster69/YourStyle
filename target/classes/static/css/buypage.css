@@ -257,13 +257,13 @@ h1, h2, h3, h4, h5, h6 {
   left: -50px;
   width: 60px;
   height: 60px;
-  background: url(/img/stocks/slide-01.svg) 0 0/100% no-repeat;
+  background: url(/resources/static/img/stocks/slide-01.svg) 0 0/100% no-repeat;
 }
 .buypage__slider .slick-arrow.slick-next {
   right: -50px;
   width: 60px;
   height: 60px;
-  background: url(/img/stocks/slide-02.svg) 0 0/100% no-repeat;
+  background: url(/resources/static/img/stocks/slide-02.svg) 0 0/100% no-repeat;
 }
 .buypage__slider .slick-dots {
   display: -webkit-box;
@@ -512,13 +512,13 @@ input[type=number]::-webkit-outer-spin-button {
   left: -50px;
   width: 60px;
   height: 60px;
-  background: url(/img/stocks/slide-01.svg) 0 0/100% no-repeat;
+  background: url(/resources/static/img/stocks/slide-01.svg) 0 0/100% no-repeat;
 }
 .recomendation__slider .slick-arrow.slick-next {
   right: -50px;
   width: 60px;
   height: 60px;
-  background: url(/img/stocks/slide-02.svg) 0 0/100% no-repeat;
+  background: url(/resources/static/img/stocks/slide-02.svg) 0 0/100% no-repeat;
 }
 .recomendation__slider .slick-dots {
   display: -webkit-box;

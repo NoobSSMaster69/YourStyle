@@ -38,7 +38,12 @@ public class ImageController {
     @RequestMapping(value = "/image/{id}", method = RequestMethod.GET, produces = MediaType.IMAGE_JPEG_VALUE)
     public ResponseEntity<?> getMainImage(@PathVariable("id") int id){
         Image image = imageDAO.getMainImageById(id);
-        return ResponseEntity.ok()
+        byte[] bytes = image.getImage_data();
+        if(bytes.length==0) {
+            return ResponseEntity.ok()
+                    .body(new InputStreamResource(new ByteArrayInputStream(imageDAO.getDefaultProductImage().getImage_data())));
+        }
+        else return ResponseEntity.ok()
                 .body(new InputStreamResource(new ByteArrayInputStream(image.getImage_data())));
     }
 

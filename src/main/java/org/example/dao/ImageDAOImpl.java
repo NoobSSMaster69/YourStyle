@@ -56,4 +56,9 @@ public class ImageDAOImpl implements ImageDAO {
         jdbcTemplate.update(SQL_INSERT_IMAGE, new Object[] {image.getProduct_id(), image.getImage_data(),image.getImage_main()});
 
     }
+
+    @Override
+    public Image getDefaultProductImage() {
+        return getMainImageById(9);
+    }
 }
