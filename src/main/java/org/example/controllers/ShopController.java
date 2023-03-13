@@ -22,7 +22,8 @@ public class ShopController {
     public ShopController(ProductDAOImpl productDAO){
         this.productDAO=productDAO;
     }
-
+    @GetMapping("/price")
+    public String pricePage(){return "shop/price_range";}
     @GetMapping("/main")
     public String mainPage(){return "shop/index";}
 

@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
   <link rel="stylesheet" href="" th:href="@{/resources/static/css/categories.css}"/>
+  <link rel="stylesheet" href="" th:href="@{//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css}">
+
   <title>Categories</title>
 </head>
 <body>
@@ -42,47 +44,216 @@
   </header>
 
   <div class="main">
+    <ul class="menubox">
+      <li><a class="menu-item" href="#">Главная</a></li>
+      <li><a class="menu-item" href="#">Товары</a></li>
+      <li><a class="menu-item" href="#">Аккаунт</a></li>
+      <li><a class="menu-item" href="#">Корзина</a></li>
+      <li><a class="menu-item" href="#">О нас</a></li>
+    </ul>
     <div class="main__container">
 
       <div class="categories">
+<!--        th:action="@{/shop/product/insert}" th:object="${product}" th:method="POST"-->
+
         <div class="categories__title">
           Категории
         </div>
-        <div class="categories__products">
-          <ul class="categories__list">
-            <li class="categories__item">
-              <a href="">Футболки</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Рубашки,блузы</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Платья</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Юбки</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Джинсы</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Шорты</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Брюки</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Толстовки,свитеры</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Купальники</a>
-            </li>
-            <li class="categories__item">
-              <a href="">Куртки,пальто</a>
-            </li>
-          </ul>
+        <form  action="#" >
+        <div class="price__select">
+          <div class="prices">
+            <div class="min_price">
+              <span>$</span>
+              <input type="text" id="amount" readonly >
+            </div>
+            <div class="max_price">
+              <span>$</span>
+              <input type="text" id="amount2" readonly >
+            </div>
+          </div>
+          <div id="slider-range"></div>
         </div>
 
+        <div class="categories_select_gender">
+          <div class="category_women">
+            <a class="woman_link" href="#">Женщинам</a>
+          </div>
+          <div class="category_man">
+            <a class="man_link" href="#">Мужчинам</a>
+          </div>
+          <div class="category_kids">
+            <a class="kids_link" href="#">Детям</a>
+          </div>
+        </div>
+        <div class="categories__products">
+            <div class="man_block">
+              <div class="categories__list" >
+
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">ФутболкиMM</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Рубашки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Платья</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Юбки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Джинсы</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Шорты</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Брюки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Толстовки свитеры</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Купальники</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Куртки пальто</div>
+              </label>
+              </div>
+            </div>
+            <div class="woman_block">
+              <div class="categories__list" >
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">ФутболкиWW</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Рубашки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Платья</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Юбки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Джинсы</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Шорты</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Брюки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Толстовки свитеры</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Купальники</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Куртки пальто</div>
+              </label>
+              </div>
+            </div>
+            <div class="kids_block">
+              <div class="categories__list" >
+
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">ФутболкиKK</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Рубашки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Платья</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Юбки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Джинсы</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Шорты</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Брюки</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Толстовки свитеры</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Купальники</div>
+              </label>
+              <label class="checkbox style-h">
+                <input type="checkbox"/>
+                <div class="checkbox__checkmark"></div>
+                <div class="checkbox__body">Куртки пальто</div>
+              </label>
+              </div>
+            </div>
+        </div>
+
+        <input class="categories_submit" type="submit" th:value="Принять" />
+        </form>
       </div>
 
       <div class="sales">
@@ -130,7 +301,7 @@
                   <a href="#"><div class="buttons__view">Смотреть</div></a>
                   <a href="#">
                     <div class="buttons__basket">В корзину</div>
-                    <img class="button__basket-image" th:src="@{/resources/static/img/header/01.svg}" alt="">
+                    <img class="button__basket-image" th:src="@{/resources/static/img/products/basket-plus.svg}" alt="">
                   </a>
                 </div>
               </div>
@@ -140,9 +311,6 @@
         </div>
       </div>
     </div>
-
-
-
   </div>
 
   <div class="footer">
@@ -170,7 +338,6 @@
       </div>
     </div>
   </div>
-</div>
 
 <script
         th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
@@ -179,5 +346,7 @@
 <script th:src="@{/resources/static/js/slick.min.js}"></script>
 <script th:src="@{https://kit.fontawesome.com/d09046bc62.js}" crossorigin="anonymous"></script>
 <script th:src="@{/resources/static/js/script.js}"></script>
+<script th:src="@{https://code.jquery.com/ui/1.13.2/jquery-ui.js}"></script>
+
 </body>
 </html>
