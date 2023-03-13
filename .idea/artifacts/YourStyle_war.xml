@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="YourStyle:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>YourStyle</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="YourStyle.war">
+      <element id="artifact" artifact-name="YourStyle:war exploded" />
+    </root>
+  </artifact>
+</component>

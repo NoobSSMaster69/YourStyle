@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="YourStyle:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new styles">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" environment="dev" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="true" />
+    <option name="ignoreSourceCode" value="false" />
+  </component>
+  <component name="ProjectId" id="2Ez9Jz4ba9373US1pOiLYK0rrAy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Timur/Desktop/JavaPrograms/YourStyle&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;aaf0e85da642baeb4746379ffeebf432&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\resources\static\img\products" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\resources\static\img\products\1" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\WEB-INF\views\shop" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\resources\static\img\products\1" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <deployment>
+        <artifact name="YourStyle:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fbde7e56-8d05-452e-957d-577461f0106a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61765" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="YourStyle:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="" />
+      <created>1663587484073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663587484073</updated>
+      <workItem from="1663587485356" duration="7412000" />
+      <workItem from="1663602207569" duration="4845000" />
+      <workItem from="1663625590616" duration="1881000" />
+      <workItem from="1663627858617" duration="8850000" />
+      <workItem from="1663673926908" duration="474000" />
+      <workItem from="1663674947440" duration="5180000" />
+      <workItem from="1663800074191" duration="1378000" />
+      <workItem from="1663850996336" duration="10745000" />
+      <workItem from="1663884403835" duration="5671000" />
+      <workItem from="1663932071427" duration="1509000" />
+      <workItem from="1663942575027" duration="772000" />
+      <workItem from="1663969591045" duration="7598000" />
+      <workItem from="1664029989050" duration="11884000" />
+      <workItem from="1664141191111" duration="1219000" />
+      <workItem from="1664218687115" duration="217000" />
+      <workItem from="1664231419974" duration="6800000" />
+      <workItem from="1664280881446" duration="3700000" />
+      <workItem from="1664311533660" duration="3148000" />
+      <workItem from="1664456967224" duration="6248000" />
+      <workItem from="1664570276536" duration="139000" />
+      <workItem from="1665769643378" duration="163000" />
+      <workItem from="1665769838636" duration="1465000" />
+      <workItem from="1666431964091" duration="903000" />
+      <workItem from="1666619695692" duration="1746000" />
+      <workItem from="1666797685648" duration="1782000" />
+      <workItem from="1666814159021" duration="1681000" />
+      <workItem from="1666956046471" duration="606000" />
+      <workItem from="1667515024614" duration="375000" />
+      <workItem from="1667518370236" duration="10585000" />
+      <workItem from="1667608651651" duration="6344000" />
+      <workItem from="1667622960271" duration="13940000" />
+      <workItem from="1667680207369" duration="6378000" />
+      <workItem from="1667691877864" duration="2081000" />
+      <workItem from="1667831537392" duration="1034000" />
+      <workItem from="1668215914698" duration="11840000" />
+      <workItem from="1668237429546" duration="328000" />
+      <workItem from="1668238082767" duration="2396000" />
+      <workItem from="1668241385334" duration="1562000" />
+      <workItem from="1668434067510" duration="2797000" />
+      <workItem from="1668592531447" duration="1391000" />
+      <workItem from="1668675425915" duration="11544000" />
+      <workItem from="1668848231913" duration="18338000" />
+      <workItem from="1669039690548" duration="647000" />
+      <workItem from="1669118725339" duration="17197000" />
+      <workItem from="1670675037060" duration="9954000" />
+      <workItem from="1672054126564" duration="4694000" />
+      <workItem from="1672398280043" duration="2781000" />
+      <workItem from="1673178644668" duration="3911000" />
+      <workItem from="1674078481825" duration="4111000" />
+      <workItem from="1674125153191" duration="8953000" />
+      <workItem from="1674164887353" duration="10616000" />
+      <workItem from="1675977828355" duration="4858000" />
+      <workItem from="1676581823474" duration="3451000" />
+      <workItem from="1676591576036" duration="1636000" />
+      <workItem from="1676593309970" duration="25000" />
+      <workItem from="1676593817738" duration="68000" />
+      <workItem from="1676682516684" duration="1605000" />
+      <workItem from="1676853516041" duration="317000" />
+      <workItem from="1676854096133" duration="420000" />
+      <workItem from="1676854792238" duration="17000" />
+      <workItem from="1676854988228" duration="627000" />
+      <workItem from="1676932853532" duration="17000" />
+      <workItem from="1676984345505" duration="37000" />
+      <workItem from="1677017361488" duration="134000" />
+      <workItem from="1677321208068" duration="9083000" />
+      <workItem from="1677415848650" duration="925000" />
+      <workItem from="1677661111797" duration="5271000" />
+      <workItem from="1677672209351" duration="7707000" />
+      <workItem from="1677833537087" duration="1073000" />
+      <workItem from="1677835502124" duration="3204000" />
+      <workItem from="1677845466927" duration="594000" />
+      <workItem from="1677882980351" duration="440000" />
+      <workItem from="1677886092149" duration="730000" />
+      <workItem from="1677887561647" duration="373000" />
+      <workItem from="1677926863206" duration="750000" />
+      <workItem from="1678053255561" duration="1439000" />
+      <workItem from="1678106090908" duration="491000" />
+      <workItem from="1678219951844" duration="2083000" />
+      <workItem from="1678222698377" duration="414000" />
+      <workItem from="1678225042900" duration="1115000" />
+      <workItem from="1678226879308" duration="1150000" />
+      <workItem from="1678307126859" duration="2295000" />
+      <workItem from="1678309799960" duration="1081000" />
+      <workItem from="1678310912513" duration="879000" />
+      <workItem from="1678367856014" duration="4984000" />
+      <workItem from="1678374977386" duration="1553000" />
+      <workItem from="1678385081518" duration="1255000" />
+      <workItem from="1678395118797" duration="2035000" />
+      <workItem from="1678400123146" duration="502000" />
+      <workItem from="1678447695471" duration="6854000" />
+      <workItem from="1678476927400" duration="3613000" />
+      <workItem from="1678485360795" duration="6243000" />
+      <workItem from="1678493057895" duration="1692000" />
+      <workItem from="1678494982159" duration="895000" />
+      <workItem from="1678496281908" duration="1583000" />
+      <workItem from="1678498565941" duration="328000" />
+      <workItem from="1678499172485" duration="3173000" />
+      <workItem from="1678536872613" duration="1599000" />
+      <workItem from="1678539763734" duration="436000" />
+      <workItem from="1678570558168" duration="1775000" />
+      <workItem from="1678572734490" duration="1575000" />
+      <workItem from="1678574826116" duration="1832000" />
+      <workItem from="1678629989600" duration="5759000" />
+      <workItem from="1678648317016" duration="4064000" />
+      <workItem from="1678657481107" duration="4713000" />
+      <workItem from="1678664768072" duration="1272000" />
+      <workItem from="1678666763935" duration="2726000" />
+      <workItem from="1678670184571" duration="1549000" />
+      <workItem from="1678672195364" duration="2384000" />
+      <workItem from="1678675941151" duration="2376000" />
+      <workItem from="1678678763427" duration="3177000" />
+      <workItem from="1678682519688" duration="1119000" />
+      <workItem from="1678686560634" duration="1728000" />
+      <workItem from="1678688678553" duration="6286000" />
+      <workItem from="1678722709574" duration="301000" />
+    </task>
+    <task id="LOCAL-00001" summary="first project">
+      <created>1678225317412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678225317412</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first project">
+      <created>1678225820342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678225820342</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I think this work">
+      <created>1678311148565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678311148565</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new styles">
+      <created>1678502169072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678502169072</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hi" />
+    <MESSAGE value="first project" />
+    <MESSAGE value="I think this work" />
+    <MESSAGE value="new styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="new styles" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
