@@ -51,10 +51,17 @@
       <li><a class="menu-item" href="#">Корзина</a></li>
       <li><a class="menu-item" href="#">О нас</a></li>
     </ul>
-    <div class="main__container">
 
-      <div class="categories">
-<!--        th:action="@{/shop/product/insert}" th:object="${product}" th:method="POST"-->
+    <div class="main__container">
+      <!--        th:action="@{/shop/product/insert}" th:object="${product}" th:method="POST"-->
+
+      <div class="categories__full">
+
+        <div class="close_filters">
+          <a href="#" class="close_filters-btn">
+            <span></span>
+          </a>
+        </div>
 
         <div class="categories__title">
           Категории
@@ -64,11 +71,11 @@
           <div class="prices">
             <div class="min_price">
               <span>$</span>
-              <input type="text" id="amount" readonly >
+              <input type="text" class="amount" readonly >
             </div>
             <div class="max_price">
               <span>$</span>
-              <input type="text" id="amount2" readonly >
+              <input type="text" class="amount2" readonly >
             </div>
           </div>
           <div id="slider-range"></div>
@@ -268,13 +275,13 @@
             <i class="fa-solid fa-sliders"></i>
           </div>
 
-          <div class="filter__sub">
-            <ul>
-              <li><a class="shop">Мужское</a></li>
-              <li><a class="shop">Женское</a></li>
-              <li><a class="shop">Детское</a></li>
-            </ul>
-          </div>
+<!--          <div class="filter__sub">-->
+<!--            <ul>-->
+<!--              <li><a class="shop">Мужское</a></li>-->
+<!--              <li><a class="shop">Женское</a></li>-->
+<!--              <li><a class="shop">Детское</a></li>-->
+<!--            </ul>-->
+<!--          </div>-->
         </div>
 
 

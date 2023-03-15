@@ -96,14 +96,38 @@ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</di
 
     jQuery(".menu-btn").on("click",function (e) {
         e.preventDefault();
+        let categories = document.querySelector(".categories__full")
+        let st = window.getComputedStyle(categories)
+            // jQuery(".categories__full");
+        console.log(st.right);
+        if(st.right === "0px"){
+            jQuery(".close_filters-btn").toggleClass("close_filters-btn_active");
+            jQuery(".categories__full").toggleClass("categories_anime");
+            jQuery(".sales").toggleClass("main-blur")
+            jQuery("body").toggleClass("no_scroll")
+
+        }
+
         jQuery(this).toggleClass("menu-btn_active");
         jQuery(".menubox").toggleClass("menubox-anime")
         jQuery(".main__container").toggleClass("main-blur")
         jQuery("body").toggleClass("no_scroll")
     });
-    jQuery(".filter__block").on("click",function (e) {
+
+    jQuery(".fa-sliders").on("click",function (e) {
         e.preventDefault();
-        jQuery(this).toggleClass("menu-btn_active");
+        jQuery(".close_filters-btn").toggleClass("close_filters-btn_active");
+        jQuery(".categories__full").toggleClass("categories_anime");
+        jQuery(".sales").toggleClass("main-blur")
+        jQuery("body").toggleClass("no_scroll")
+    });
+
+    jQuery(".close_filters").on("click", function (e){
+        e.preventDefault();
+        jQuery(".close_filters-btn").toggleClass("close_filters-btn_active");
+        jQuery(".categories__full").toggleClass("categories_anime");
+        jQuery(".sales").toggleClass("main-blur")
+        jQuery("body").toggleClass("no_scroll")
     });
 
     jQuery( function() {
@@ -113,102 +137,23 @@ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</di
             max: 10000,
             values: [ 750, 9000 ],
             slide: function( event, ui ) {
-                jQuery( "#amount" ).val( ui.values[ 0 ]);
-                jQuery( "#amount2" ).val( ui.values[ 1 ] );
+                jQuery( ".amount" ).val( ui.values[ 0 ]);
+                jQuery( ".amount2" ).val( ui.values[ 1 ] );
             }
         });
-        jQuery( "#amount" ).val(jQuery( "#slider-range" ).slider( "values", 0 ) );
-        jQuery( "#amount2" ).val(jQuery( "#slider-range" ).slider( "values", 1 ) );
+        jQuery( ".amount" ).val(jQuery( "#slider-range" ).slider( "values", 0 ) );
+        jQuery( ".amount2" ).val(jQuery( "#slider-range" ).slider( "values", 1 ) );
     });
 
-    jQuery(".man_link").on("click",function (e) {
-        e.preventDefault();
-
-
-        // jQuery(this).toggleClass("man_active_link");
-        // jQuery(".woman_link").toggleClass("woman_off_link")
-        // jQuery(".kids_link").toggleClass("kids_off_link")
-        //
-        // jQuery(".man_block").toggleClass("man_active_block");
-        // jQuery(".woman_block").toggleClass("woman_off_block")
-        // jQuery(".kids_block").toggleClass("kids_off_block")
-
-        // jQuery(this).removeClass("man_link").addClass("man_active_link");
-        // jQuery(".woman_link").removeClass("woman_link").addClass("woman_off_link");
-        // jQuery(".kids_link").removeClass("kids_link").addClass("kids_off_link");
-        //
-        // jQuery(".man_block").removeClass("man_block").addClass("man_active_block");
-        // jQuery(".woman_block").removeClass("woman_block").addClass("woman_off_block");
-        // jQuery(".kids_block").removeClass("kids_block").addClass("kids_off_block");
-
-        // jQuery(".man_block").fadeToggle(100);
-
-    });
-    
-    jQuery(".woman_link").on("click",function (e) {
-        e.preventDefault();
-        // jQuery(this).toggleClass("woman_active_link");
-        // jQuery(".man_link").toggleClass("man_off_link")
-        // jQuery(".kids_link").toggleClass("kids_off_link")
-        //
-        // jQuery(".woman_block").toggleClass("woman_active_block");
-        // jQuery(".man_block").toggleClass("man_off_block")
-        // jQuery(".kids_block").toggleClass("kids_off_block")
-
-        // jQuery(this).removeClass("woman_link").addClass("woman_active_link");
-        // jQuery(".man_link").removeClass("man_link").addClass("man_off_link")
-        // jQuery(".kids_link").removeClass("kids_link").addClass("kids_off_link")
-        //
-        // jQuery(".woman_block").removeClass("woman_block").addClass("woman_active_block");
-        // jQuery(".man_block").removeClass("man_block").addClass("man_off_block")
-        // jQuery(".kids_block").removeClass("kids_block").addClass("kids_off_block")
-        // jQuery(".woman_block").fadeToggle(100);
-
-    });
-
-    jQuery(".kids_link").on("click",function (e) {
-        e.preventDefault();
-        // jQuery(this).toggleClass("kids_active_link");
-        // jQuery(".woman_link").toggleClass("woman_off_link")
-        // jQuery(".man_link").toggleClass("man_off_link")
-        //
-        // jQuery(".kids_block").toggleClass("kids_active_block");
-        // jQuery(".woman_block").toggleClass("woman_off_block")
-        // jQuery(".man_block").toggleClass("man_off_block")
-
-        // jQuery(this).removeClass("kids_link").addClass("kids_active_link");
-        // jQuery(".woman_link").removeClass("woman_link").addClass("woman_off_link")
-        // jQuery(".man_link").removeClass("man_link").addClass("man_off_link")
-        //
-        // jQuery(".kids_block").removeClass("kids_block").addClass("kids_active_block");
-        // jQuery(".woman_block").removeClass("woman_block").addClass("woman_off_block")
-        // jQuery(".man_block").removeClass("man_block").addClass("man_off_block")
-
-        // jQuery(".kids_block").fadeToggle(100);
-    });
 
 });
 
+// function viewVisible(){
+//     document.getElementsByClassName("categories").style.visibility="visible";
+//     document.getElementsByClassName("categories").style.right=0;
+//
+// }
 
-
-// function viewMan(){
-//                      document.getElementsByClassName("kids_block").style.display="none";
-//                     document.getElementsByClassName("man_block").style.display="block";
-//                     document.getElementsByClassName("woman_block").style.display="none";
-//
-//                  };
-// function viewWoman(){
-//     document.getElementsByClassName("kids_block").style.display="none";
-//     document.getElementsByClassName("man_block").style.display="none";
-//     document.getElementsByClassName("woman_block").style.display="block";
-//
-// };
-// function viewKids(){
-//     document.getElementsByClassName("kids_block").style.display="block";
-//     document.getElementsByClassName("man_block").style.display="none";
-//     document.getElementsByClassName("woman_block").style.display="none";
-//
-// };
 
 $(document).ready(function () {
 

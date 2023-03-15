@@ -9,18 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new styles">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" afterDir="false" />
+    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new categories">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/price_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/price_range.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/categories.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/script.js" afterDir="false" />
     </list>
@@ -42,6 +41,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -314,6 +326,12 @@
       <workItem from="1678686560634" duration="1728000" />
       <workItem from="1678688678553" duration="6286000" />
       <workItem from="1678722709574" duration="301000" />
+      <workItem from="1678744478496" duration="689000" />
+      <workItem from="1678794526397" duration="4155000" />
+      <workItem from="1678799132418" duration="701000" />
+      <workItem from="1678827688475" duration="4674000" />
+      <workItem from="1678832957120" duration="1526000" />
+      <workItem from="1678834646332" duration="6112000" />
     </task>
     <task id="LOCAL-00001" summary="first project">
       <created>1678225317412</created>
@@ -343,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678502169072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new categories">
+      <created>1678744633903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678744633903</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new categories">
+      <created>1678744700517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678744700517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +397,8 @@
     <MESSAGE value="first project" />
     <MESSAGE value="I think this work" />
     <MESSAGE value="new styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="new styles" />
+    <MESSAGE value="new categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="new categories" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

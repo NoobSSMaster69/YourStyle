@@ -137,22 +137,57 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+/*=============CLOSE_FILTERS=============*/
+
+.close_filters-btn{
+  width: 50px;
+  height: 40px;
+}
+.close_filters-btn span{
+  height: 0;
+}
+.close_filters-btn span::before,
+.close_filters-btn span::after{
+  display: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  width: 40px;
+  height: 4px;
+  background-color: black;
+}
+
+.close_filters-btn span::before,
+.close_filters-btn span::after{
+  content: '';
+  display: block;
+  transition: 0.5s;
+}
+.close_filters-btn span::before{
+  transform: rotate(-45deg);
+}
+.close_filters-btn span::after{
+  transform: rotate(45deg);
+}
+.close_filters-btn_active span:before{
+  transform: rotate(45deg);
+}
+.close_filters-btn_active span:after{
+  transform: rotate(-45deg);
+}
+
+.close_filters{
+  display: none;
+  position: absolute;
+  right: 310px;
+}
+/*==============/CLOSE_FILTERS==============*/
 
 /*=============MENU=============*/
 
-/*.section{*/
-/*  height: 100vh;*/
-/*  background-color: #7b1fa2;*/
-/*  display: flex;*/
-/*  !*justify-content: center;*!*/
-/*  !*align-items: center;*!*/
-/*}*/
 .menu-btn{
-  /*display: block;*/
   width: 50px;
   height: 40px;
-  /*background-color: purple;*/
-  /*border-radius: 50%;*/
 }
 .menu-btn span,
 .menu-btn span::before,
@@ -161,8 +196,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 50%;
   margin-top: -2px;
-  /*left: 10%;*/
-  /*margin-left: -22px;*/
   width: 40px;
   height: 4px;
   background-color: white;
@@ -190,8 +223,8 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(-45deg);
 }
 
-
 /*==============/MENU==============*/
+
 
 /*==============MENU_LINKS==============*/
 .no_scroll{
@@ -200,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-blur{
   filter: blur(5px);
+  pointer-events: none;
 }
 
 .menubox{
@@ -214,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30% 0 30% 0;
   list-style: none;
   background-color: black;
-  box-shadow: 0.2em 4px 0.4em #d21f3c;
+  box-shadow: 4px 4px 1em 4px #d21f3c;
   transition-duration: .25s;
   z-index: 100;
 }
@@ -242,13 +276,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*==============PRICE_RANGE==============*/
-#amount{
+.amount{
   border:0;
   color:black;
   font-weight:bold;
   width: 50px;
 }
-#amount2{
+.amount2{
   border:0;
   color: black;
   font-weight:bold;
@@ -265,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 /*==============/PRICE_RANGE==============*/
 
@@ -278,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   line-height: 17px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 /*------MAN--------*/
 .man_link{
@@ -503,13 +538,15 @@ h1, h2, h3, h4, h5, h6 {
       justify-content: space-around;
 }
 
-.categories {
+.categories__full {
   padding: 25px;
   width: 300px;
   height: 100%;
   border: 1.5px solid black;
   border-radius: 20px;
 }
+
+
 
 .categories__products {
   position: relative;
@@ -537,8 +574,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 15px;
+  margin-top: 15px;
   /*margin-left: 22px;*/
 }
 
@@ -576,7 +613,7 @@ h1, h2, h3, h4, h5, h6 {
 .categories_submit{
   color: white;
   background-color: #d21f3c;
-  margin-top: 20%;
+  margin-top: 40%;
   margin-left: 30%;
   padding: 10px 25px;
   border-radius: 10px;
@@ -612,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .filter__title {
-  display: inline;
+  display: none;
 }
 
 .search__submit {
@@ -888,10 +925,52 @@ h1, h2, h3, h4, h5, h6 {
   gap: 20px;
 }
 
-@media (max-width: 1279px) {
-  [class*=categories]{
-    display: none;
+@media (max-width: 1314px) {
+  [class*=categories__full]{
+    position: fixed;
+    right: -100%;
+    border: none;
+    background-color: black;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-top: 100px;
+    margin-top: -100px;
+    box-shadow: -0.5em 0 1em 4px #d21f3c;
+    visibility: hidden;
+    transition-duration: .25s;
+    z-index: 100;
+
   }
+  [class*=filter__title]{
+    display: inline;
+  }
+  [class*=woman_link]{
+    color: white;
+  }
+  [class*=man_link]{
+    color: white;
+  }
+  [class*=kids_link]{
+    color: white;
+  }
+  [class*=prices]{
+    color: white;
+  }
+  [class*=amount]{
+    color: white;
+    background-color: black;
+  }
+  [class*=amount2]{
+    color: white;
+    background-color: black;
+  }
+  [class*=close_filters]{
+    display: block;
+  }
+}
+.categories_anime{
+  visibility: visible;
+  right: 0;
 
 }
 
@@ -1114,7 +1193,9 @@ h1, h2, h3, h4, h5, h6 {
   [class*=__container] {
     max-width: 350px;
   }
-
+  [class*=categories__full]{
+    padding-top: 80px;
+  }
   [class*=button__basket-image]{
     margin-left: 140%;
   }
