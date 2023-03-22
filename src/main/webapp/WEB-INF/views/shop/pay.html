@@ -1,42 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="ISO-8859-1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
-    <link rel="stylesheet" href="css/pay.css">
-    <title>template</title>
+    <link rel="stylesheet" th:href="@{/resources/static/css/pay.css}">
+    <link rel="stylesheet" th:href="@{/resources/static/css/fragments/header.css}">
+    <link rel="stylesheet" th:href="@{/resources/static/css/fragments/footer.css}">
+    <title>Оплата и доставка</title>
 </head>
 <body>
 <div class="wrapper">
-    <header class="header">
-        <div class="header__container">
-            <div class="header__body">
-                <div class="header__row">
-                    <div class="header__links">
-                        <a class= 'header__link' href="#">Категории</a>
-                        <a class= 'header__link' href="pay.html">Оплата и доставка</a>
-                        <a class= 'header__link' href="reviews.html">Отзывы</a>
-                      
-                    </div>
-                
-                    <div class="header__logo">
-                        <a href="index.html">Твой <span>Стиль</span></a>
-                    </div>
-                    
-                    <div class="header__icon">
-                        <img class = 'header__basket' src="/img/header/01.svg"  alt="">
-
-                        <a href="login.html"><img class = 'header__login' src="/img/header/user01.png" width="40px" height="40px" alt=""></a>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-   
-    </header>
-
+    <div th:replace="fragments/header.htm :: header"></div>
     <main class="main">
         <div class="pay__container">
             <div class="pay__text">
@@ -61,30 +37,5 @@
             </div>
         </div>
     </main>
-
-    <div class="footer">
-        <div class="header__container">
-            <div class="footer__row">
-                <div class="footer__logo">
-                    Твой <span>Стиль</span>
-                </div>
-    
-                <div class="footer__text">
-                    Руководитель организации: генеральный директор 
-                    Солонар Сергій Михайлович. Юридический адрес 
-                    ПАО "Детский Мир" - 119415, город Москва, проспект 
-                    Вернадского, 37-3.
-                    Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО 
-                    "ДЕТСКИЙ МИР" присвоены ИНН 7729355029, 
-                    ОГРН 1027700047100, ОКПО 47568073. 
-                </div>
-    
-                <div class="footer__images">
-                    <img src="/img/footer/инст 3.svg" alt="">
-                    <img src="/img/footer/инст 3.svg" alt="">
-                    <img src="/img/footer/инст 3.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+    <div th:replace="fragments/footer.htm :: footer"></div>
+</div>

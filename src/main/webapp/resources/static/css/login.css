@@ -83,31 +83,6 @@ h1, h2, h3, h4, h5, h6 {
           flex: 1 1 auto;
 }
 
-.header__logo {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 35px;
-  max-width: 100px;
-  margin: 0 auto;
-  top: 105px;
-  right: 20px;
-}
-.header__logo span {
-  color: #d21f3c;
-  position: absolute;
-  left: 15px;
-  top: 35px;
-  font-weight: 800;
-}
-.header__logo span::before {
-  content: "";
-  position: absolute;
-  width: 115%;
-  border-top: 2px solid #000;
-  right: 0;
-}
-
 .login__registration {
   padding: 50px;
 }

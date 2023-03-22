@@ -9,18 +9,141 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new categories">
+    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new categories for mobile">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/main/_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man&amp;woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/menu_default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/menu_for_categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/YourStyle_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/YourStyle_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YourStyle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YourStyle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ApplicationSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mappers/PersonRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/UserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mappers/ProductRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/ProductRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/price_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/price_range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/fragments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/productPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/buypage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/PeopleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ProductRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/buypage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/fragments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/productPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/buypage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/PeopleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/PersonDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/interfaces/PersonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/PersonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mappers/ProductRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/buypage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +157,7 @@
       <list>
         <option value="HTTP Public Environment File" />
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
@@ -85,16 +209,20 @@
     <option name="ignoreSourceCode" value="false" />
   </component>
   <component name="ProjectId" id="2Ez9Jz4ba9373US1pOiLYK0rrAy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Timur/Desktop/JavaPrograms/YourStyle&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
@@ -103,7 +231,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;aaf0e85da642baeb4746379ffeebf432&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -122,6 +250,8 @@
       <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\resources" />
+      <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\WEB-INF\views\shop" />
       <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\resources\static\img\products\1" />
       <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp" />
@@ -332,6 +462,33 @@
       <workItem from="1678827688475" duration="4674000" />
       <workItem from="1678832957120" duration="1526000" />
       <workItem from="1678834646332" duration="6112000" />
+      <workItem from="1678843508228" duration="1756000" />
+      <workItem from="1678849777268" duration="16000" />
+      <workItem from="1678881882516" duration="521000" />
+      <workItem from="1678948396493" duration="405000" />
+      <workItem from="1678949487723" duration="2357000" />
+      <workItem from="1678952116009" duration="3605000" />
+      <workItem from="1678956089094" duration="2845000" />
+      <workItem from="1678964866393" duration="32000" />
+      <workItem from="1678966902072" duration="5306000" />
+      <workItem from="1678992868358" duration="3288000" />
+      <workItem from="1679040488098" duration="659000" />
+      <workItem from="1679043606714" duration="304000" />
+      <workItem from="1679044343506" duration="2075000" />
+      <workItem from="1679046909267" duration="1181000" />
+      <workItem from="1679050141941" duration="3385000" />
+      <workItem from="1679087640601" duration="450000" />
+      <workItem from="1679128124861" duration="2279000" />
+      <workItem from="1679131410374" duration="1534000" />
+      <workItem from="1679134221147" duration="5974000" />
+      <workItem from="1679141309591" duration="899000" />
+      <workItem from="1679143371330" duration="3139000" />
+      <workItem from="1679226052487" duration="391000" />
+      <workItem from="1679226930494" duration="4818000" />
+      <workItem from="1679232024951" duration="1201000" />
+      <workItem from="1679259998909" duration="3685000" />
+      <workItem from="1679264428045" duration="14619000" />
+      <workItem from="1679401276726" duration="1332000" />
     </task>
     <task id="LOCAL-00001" summary="first project">
       <created>1678225317412</created>
@@ -375,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678744700517</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new categories for mobile">
+      <created>1678843714734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678843714735</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,12 +557,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hi" />
     <MESSAGE value="first project" />
     <MESSAGE value="I think this work" />
     <MESSAGE value="new styles" />
     <MESSAGE value="new categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="new categories" />
+    <MESSAGE value="new categories for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="new categories for mobile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

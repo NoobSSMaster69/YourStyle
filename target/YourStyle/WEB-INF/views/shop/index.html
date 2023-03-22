@@ -6,69 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
     <link rel="stylesheet" href="" th:href="@{/resources/static/css/style.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/header.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/footer.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/main/_about.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/main/big_slider.css}"/>
+
     <title>Your Style</title>
 </head>
 <body>
 <div class="wrapper">
-    <header class="header">
-        <div class="header__container">
-            <div class="header__body">
-                <div class="header__row">
-                    <div class="header__links">
-                        <a class= 'header__link' href="#">Категории</a>
-                        <a class= 'header__link' href="#">Оплата и доставка</a>
-                        <a class= 'header__link' href="#">Отзывы</a>
-                    </div>
-                
-                    <div class="header__logo">
-                        Твой <span>Стиль</span>
-                    </div>
-                
-                    <div class="header__icon">
-                        <img th:src="@{/resources/static/img/header/01.svg}"  alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-   
-    </header>
+    <div th:replace="fragments/header.htm :: header"></div>
+    <div th:replace="fragments/header.htm :: menubox"></div>
+    <div class="main">
+        <div th:replace="fragments/main/big_slider.htm :: big_slider"></div>
+<!--        <div th:replace="fragments/main/_about.htm :: about"></div>-->
+<!--    <div class="links">-->
+<!--    <div class="links__container">-->
+<!--            <nav class="links__navi">-->
+<!--                <ul class="links__list">-->
+<!--                    <li class="links__link"><a href="#">Одежда</a></li>-->
+<!--                    <li class="links__link"><a href="#">Обувь</a></li>-->
+<!--                    <li class="links__link"><a href="#">Аксессуары</a></li>-->
+<!--                    <li class="links__link"><a href="#">Скидки</a></li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--   </div>-->
+<!--   <div class="children">-->
+<!--    <div class="children__container">-->
+<!--        <div class="children__slider">-->
+<!--            <div class="slider__item">-->
 
-<div class="main">
-   <div class="links">
-    <div class="links__container">
-            <nav class="links__navi">
-                <ul class="links__list">
-                    <li class="links__link"><a href="#">Одежда</a></li>
-                    <li class="links__link"><a href="#">Обувь</a></li>
-                    <li class="links__link"><a href="#">Аксессуары</a></li>
-                    <li class="links__link"><a href="#">Скидки</a></li>
-                </ul>
-            </nav>
-        </div>
-   </div>
-   <div class="children">
-    <div class="children__container">
-        <div class="children__slider">
-            <div class="slider__item">
-                <img th:src="@{/resources/static/img/children/01.svg}" alt="">
-            </div>
-            
-            <div class="slider__item">
-                <img th:src="@{/resources/static/img/children/01.svg}" alt="">
-            </div>
+<!--                <img th:src="@{/resources/static/img/children/01.svg}" alt="">-->
+<!--            </div>-->
+<!--            -->
+<!--            <div class="slider__item">-->
+<!--                <img th:src="@{/resources/static/img/children/01.svg}" alt="">-->
+<!--            </div>-->
 
-            <div class="slider__item">
-                <img th:src="@{/resources/static/img/children/01.svg}" alt="">
-            </div>
+<!--            <div class="slider__item">-->
+<!--                <img th:src="@{/resources/static/img/children/01.svg}" alt="">-->
+<!--            </div>-->
 
-            <div class="slider__item">
-                <img th:src="@{/resources/static/img/children/01.svg}" alt="">
-            </div>
-        </div>
-        
-    </div>
-   </div>
+<!--            <div class="slider__item">-->
+<!--                <img th:src="@{/resources/static/img/children/01.svg}" alt="">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        -->
+<!--    </div>-->
+<!--   </div>-->
 
+        <div th:replace="fragments/main/_about.htm :: about"></div>
    <div class="stocks">
     <div class="stocks__container">
         <div class="stocks__body">
@@ -370,46 +358,16 @@
                         </div>
                     </div>
                    
+                        </div>
+                    </div>
                 </div>
-
-            </div>          
-        </div>
-    </div>
-   </div>
-</div>
-
-<div class="footer">
-    <div class="header__container">
-        <div class="footer__row">
-            <div class="footer__logo">
-                Твой <span>Стиль</span>
-            </div>
-
-            <div class="footer__text">
-                Руководитель организации: генеральный директор 
-                Солонар Сергій Михайлович. Юридический адрес 
-                ПАО "Детский Мир" - 119415, город Москва, проспект 
-                Вернадского, 37-3.
-                Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО 
-                "ДЕТСКИЙ МИР" присвоены ИНН 7729355029, 
-                ОГРН 1027700047100, ОКПО 47568073. 
-            </div>
-
-            <div class="footer__images">
-                <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
-                <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
-                <img th:src="@{/resources/static/img/footer/inst.svg}" alt="">
             </div>
         </div>
     </div>
 </div>
-</div>
-   
-<script
-        th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
-<script th:src="@{/resources/static/js/slick.min.js}"></script>
-<script th:src="@{/resources/static/js/script.js}"></script>
+
+    <div th:replace="fragments/footer.htm :: footer"></div>
+    <div th:replace="fragments/footer.htm :: scripts_default"></div>
+
 </body>
 </html>

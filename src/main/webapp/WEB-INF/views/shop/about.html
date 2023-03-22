@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
     <link rel="stylesheet" href="" th:href="@{/resources/static/css/style.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/header.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/resources/static/css/fragments/footer.css}"/>
     <title>template</title>
 </head>
 <body>
-<div th:replace="fragments/header :: header"></div>
+<div th:replace="fragments/header.htm :: header"></div>
 
     <div class="wrapper">
         <div class="main">

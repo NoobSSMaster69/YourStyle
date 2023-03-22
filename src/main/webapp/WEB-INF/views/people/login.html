@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable = 0">
     <link rel="stylesheet" th:href="@{/resources/static/css/login.css}">
+    <link rel="stylesheet" th:href="@{/resources/static/css/fragments/header.css}">
+    <link rel="stylesheet" th:href="@{/resources/static/css/fragments/footer.css}">
     <title>template</title>
 </head>
 <body>
 <div class="wrapper">
+    <div th:replace="fragments/header.htm :: header"></div>
+    <div th:replace="fragments/header.htm :: menubox"></div>
+
     <div class="main">
         <div class="login">
             <div class="login__container">
-                <div class="header__logo">
-                    <a th:href="@{/shop/main}">Твой <span>Стиль</span></a>
-                </div>
                 <div class="login__body">
                     <div class="login__registration">
                         <form class="login__forms" action="#">
@@ -45,12 +47,8 @@
             </div>
         </div>
     </div>
-</div> 
-<script
-  th:src="@{https://code.jquery.com/jquery-3.6.1.js}"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
-<script th:src="@{/resources/static/js/slick.min.js}"></script>
-<script th:src="@{/resources/static/js/script.js}"></script>
+    <div th:replace="fragments/footer.htm :: footer"></div>
+</div>
+<div th:replace="fragments/footer.htm :: scripts_default"></div>
 </body>
 </html>

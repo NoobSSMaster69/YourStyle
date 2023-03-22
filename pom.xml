@@ -25,19 +25,19 @@
       <scope>test</scope>
     </dependency>
 
-<!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.security/spring-security-web &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.springframework.security</groupId>-->
-<!--      <artifactId>spring-security-web</artifactId>-->
-<!--      <version>6.0.2</version>-->
-<!--    </dependency>-->
+    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+      <version>6.0.2</version>
+    </dependency>
 
-<!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.security/spring-security-config &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.springframework.security</groupId>-->
-<!--      <artifactId>spring-security-config</artifactId>-->
-<!--      <version>6.0.2</version>-->
-<!--    </dependency>-->
+    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-config</artifactId>
+      <version>6.0.2</version>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jdbc -->
     <dependency>
       <groupId>org.springframework.data</groupId>
@@ -106,7 +106,12 @@
           <artifactId>spring-data-jpa</artifactId>
           <version>2.6.1</version>
       </dependency>
-
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <version>2.7.2</version>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
     <dependency>
       <groupId>commons-io</groupId>

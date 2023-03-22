@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<header th:fragment="header" class="header">
+    <div class="header__container">
+        <div class="header__body">
+            <div class="header__row">
+                <div class="header__links">
+                    <a class= 'header__link' href="#">Категории</a>
+                    <a class= 'header__link' href="pay.html">Оплата и доставка</a>
+                    <a class= 'header__link' href="reviews.html">Отзывы</a>
+
+                </div>
+                <div class="section">
+                    <a href="#" class="menu-btn">
+                        <span></span>
+                    </a>
+                </div>
+                <div class="header__logo">
+                    <a href="index.html">Твой <span>Стиль</span></a>
+                </div>
+
+                <div class="header__icon">
+                    <img class = 'header__basket' th:src="@{/resources/static/img/header/01.svg}" alt="">
+
+                    <a href="login.html"><img class = 'header__login' th:src="@{/resources/static/img/header/user_negate.png}" width="40px" height="40px" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<ul class="menubox" th:fragment="menubox">
+    <li><a class="menu-item" href="#">Главная</a></li>
+    <li><a class="menu-item" href="#">Товары</a></li>
+    <li><a class="menu-item" href="#">Категории</a></li>
+    <li><a class="menu-item" id="account-item" href="#">Аккаунт</a></li>
+    <li><a class="menu-item" id="basket-item" href="#">Корзина</a></li>
+    <li><a class="menu-item" href="#">Доставка и оплата</a></li>
+    <li><a class="menu-item" href="#">Отзывы</a></li>
+    <li><a class="menu-item" href="#">О нас</a></li>
+</ul>
+
+</html>

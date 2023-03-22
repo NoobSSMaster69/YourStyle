@@ -1,6 +1,5 @@
 package org.example.mappers;
 
-import org.example.models.Person;
 import org.example.models.Product;
 import org.springframework.jdbc.core.RowMapper;
 

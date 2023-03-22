@@ -12,14 +12,13 @@ $('.stocks__items').slick({
 $('.children__slider').slick({
     arrows:false,
     dots:false,
-    adaptiveHeight:false,
     slidesToShow:1,
     slidesToScroll:1,
     autoplay:true,
     speed:1000,
     autoplaySpeed:2500,
     variableWidth: true,
-    adaptiveHeight:true,
+    adaptiveHeight:true
 });
 
 $('.filter__title').click(function(event){
@@ -39,8 +38,10 @@ $('.links__title').click(function(event){
 $('.buypage__slider').slick({
     arrows:true,
     dots:true,
+    adaptiveWidth:true,
     adaptiveHeight:true,
     variableWidth: true,
+    variableHeight: true,
     slidesToShow:1,
     slidesToScroll:1,
     speed:800,
@@ -94,25 +95,6 @@ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</di
 
     });
 
-    jQuery(".menu-btn").on("click",function (e) {
-        e.preventDefault();
-        let categories = document.querySelector(".categories__full")
-        let st = window.getComputedStyle(categories)
-            // jQuery(".categories__full");
-        console.log(st.right);
-        if(st.right === "0px"){
-            jQuery(".close_filters-btn").toggleClass("close_filters-btn_active");
-            jQuery(".categories__full").toggleClass("categories_anime");
-            jQuery(".sales").toggleClass("main-blur")
-            jQuery("body").toggleClass("no_scroll")
-
-        }
-
-        jQuery(this).toggleClass("menu-btn_active");
-        jQuery(".menubox").toggleClass("menubox-anime")
-        jQuery(".main__container").toggleClass("main-blur")
-        jQuery("body").toggleClass("no_scroll")
-    });
 
     jQuery(".fa-sliders").on("click",function (e) {
         e.preventDefault();
