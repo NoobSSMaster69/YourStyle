@@ -8,7 +8,9 @@ import org.springframework.stereotype.Component;
 import org.example.models.User;
 
 import javax.sql.DataSource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 @Component
@@ -16,11 +18,12 @@ public class UserDAOImpl implements UserDAO {
 
     JdbcTemplate jdbcTemplate;
 
-    private final String SQL_FIND_PERSON = "select * from person where person_id = ?";
+    private final String SQL_FIND_PERSON_BY_ID = "select * from person where person_id = ?";
+    private final String SQL_FIND_USER_BY_LOGIN = "select * from user where userLogin = ?";
     private final String SQL_DELETE_PERSON = "delete from person where person_id = ?";
     private final String SQL_UPDATE_PERSON = "update person set person_name = ?, person_phone = ?, person_email = ? where person_id = ?";
     private final String SQL_GET_ALL = "select * from person";
-    private final String SQL_INSERT_PERSON = "insert into person(person_id, person_name, person_email, person_pass) values(DEFAULT,?,?,?)";
+    private final String SQL_INSERT_USER = "insert into user(userId, userLogin,userPass,userEnable) values(DEFAULT,?,?,?)";
 
     @Autowired
     public UserDAOImpl(DataSource dataSource) {
@@ -28,7 +31,12 @@ public class UserDAOImpl implements UserDAO {
     }
 
     public User getPersonById(Long id) {
-        return jdbcTemplate.queryForObject(SQL_FIND_PERSON, new UserRowMapper(), new Object[] { id });
+        return jdbcTemplate.queryForObject(SQL_FIND_PERSON_BY_ID, new UserRowMapper(), id);
+    }
+
+    @Override
+    public List<User> getUserByLogin(String login) {
+        return jdbcTemplate.query(SQL_FIND_USER_BY_LOGIN, new UserRowMapper(), login);
     }
 
     public List<User> getAllPersons() {
@@ -44,7 +52,7 @@ public class UserDAOImpl implements UserDAO {
                 user.getUserEmail()) > 0;
     }
 
-    public void createPerson(User user) {
-        jdbcTemplate.update(SQL_INSERT_PERSON, user.getUserName(),
-                user.getUserEmail(), user.getUserPass());
+    public void createUser(User user) {
+
+        jdbcTemplate.update(SQL_INSERT_USER, user.getUserLogin(), user.getEncodedUserPass(), user.isUserEnable());
     }}

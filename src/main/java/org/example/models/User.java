@@ -1,18 +1,24 @@
 package org.example.models;
 
 
-import org.springframework.data.annotation.Id;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.persistence.Entity;
-import javax.validation.constraints.*;
+import jakarta.persistence.*;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.util.Collection;
 import java.util.Set;
 
 @Entity
+@Table(name = "user")
 public class User implements UserDetails {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long userId;
 
     @NotEmpty(message = "Name should not be empty")
@@ -40,17 +46,20 @@ public class User implements UserDetails {
     @NotEmpty(message = "Password should not be empty")
     private String userPass;
 
-    @NotEmpty(message = "Password should not be empty")
+    @NotEmpty(message = "Confirm password should not be empty")
     private String userPassConfirm;
+    @NotEmpty(message = "Enabled should not be empty")
+    private boolean userEnable;
 
-    private Set<UserRole> roles;
+    @ManyToMany(mappedBy = "users")
+    private Set<Role> roles;
 
 
     public User() {
 
     }
 
-    public User(long userId, String userLogin, String userName, String userLastname, String userPatronymic, String userPhone, String userEmail, String userPass, String userPassConfirm, Set<UserRole> roles) {
+    public User(long userId, String userLogin, String userName, String userLastname, String userPatronymic, String userPhone, String userEmail, String userPass, String userPassConfirm, boolean userEnable, Set<Role> roles) {
         this.userId = userId;
         this.userLogin = userLogin;
         this.userName = userName;
@@ -60,7 +69,16 @@ public class User implements UserDetails {
         this.userEmail = userEmail;
         this.userPass = userPass;
         this.userPassConfirm = userPassConfirm;
+        this.userEnable = userEnable;
         this.roles = roles;
+    }
+
+    public boolean isUserEnable() {
+        return userEnable;
+    }
+
+    public void setUserEnable(boolean userEnable) {
+        this.userEnable = userEnable;
     }
 
     public long getUserId() {
@@ -122,6 +140,10 @@ public class User implements UserDetails {
     public String getUserPass() {
         return userPass;
     }
+    public String getEncodedUserPass() {
+        BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        return bCryptPasswordEncoder.encode(userPass);
+    }
 
     public void setUserPass(String userPass) {
         this.userPass = userPass;
@@ -135,11 +157,11 @@ public class User implements UserDetails {
         this.userPassConfirm = userPassConfirm;
     }
 
-    public Set<UserRole> getRoles() {
+    public Set<Role> getRoles() {
         return roles;
     }
 
-    public void setRoles(Set<UserRole> roles) {
+    public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }
 

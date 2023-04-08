@@ -23,7 +23,7 @@ public class ImageDAOImpl implements ImageDAO {
     private final String SQL_FIND_IMAGE = "select * from image where `product_id` = ?";
     private final String SQL_FIND_NUM_IMAGE = "select * from image where `product_id` = ? and `image_number` = ?";
     private final String SQL_FIND_MAIN_IMAGE = "select * from image where `product_id` = ? and `image_main` = true";
-    private final String SQL_INSERT_IMAGE = "insert into image(product_id, image_data, image_main) value(?,?,?)";
+    private final String SQL_INSERT_IMAGE = "insert into image(product_id,image_number, image_data, image_main) value(?,default,?,?)";
 
     @Override
     public Image getImageByIdNum(int id, int num){
@@ -53,7 +53,7 @@ public class ImageDAOImpl implements ImageDAO {
 
     @Override
     public void createImage(Image image) {
-        jdbcTemplate.update(SQL_INSERT_IMAGE, new Object[] {image.getProduct_id(), image.getImage_data(),image.getImage_main()});
+        jdbcTemplate.update(SQL_INSERT_IMAGE, image.getProduct_id(), image.getImage_data(),image.getImage_main());
 
     }
 

@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form  action="#" th:action="@{/shop/product/insert}" th:object="${product}" th:method="POST">
+<form  action="#" th:action="@{/admin/product/insert}" th:object="${product}" th:method="POST">
 	<p>Enter name: <input th:type="text" th:field="*{product_name}" /></p>
 <!--	<div style="color:red" th:if="${#fields.hasErrors('product_name')}" th:errors="*{product_name}">Name Error</div>-->
 	<p>Enter category: <input th:type="number" th:field="*{category_id}" /></p>

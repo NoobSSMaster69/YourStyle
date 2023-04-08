@@ -9,142 +9,328 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="new categories for mobile">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminMain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/fragments/main/_about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man&amp;woman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/woman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/menu_default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/menu_for_categories.js" afterDir="false" />
+    <list default="true" id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="Security start">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_1_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlets/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tokens/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tokens/JwtTokenProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/YourStyle_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/YourStyle_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_29_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_relational_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_relational_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_6_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_1_0_M2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_1_0_M2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring6_3_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YourStyle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YourStyle.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ApplicationSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/JdbcConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mappers/PersonRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/UserRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mappers/ProductRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/ProductRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/ImageDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ImageDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/ProductDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ProductDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/interfaces/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mappers/UserRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/UserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminMain.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/footer.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/fragments/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/productPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/buypage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/categories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/insertImage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/insertImage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/insertProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop/insertProduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man&amp;woman.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/manwoman.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/img/main/man.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/PeopleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ProductRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/buypage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/fragments/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/productPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/buypage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/PeopleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/PersonDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/interfaces/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/PersonRowMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mappers/ProductRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/models/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/buypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/buypage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/categories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/JdbcConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/PeopleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/controllers/ShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/ImageDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/PersonDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/ProductDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/interfaces/ImageDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/interfaces/PersonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/dao/interfaces/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ImageRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/PersonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/models/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/org/example/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/buypage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/categories.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/insertImage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/pay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/registration.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/reviews.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/buepage-img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/buepage-img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/buepage-img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/buepage-img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/buepage-img/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/children/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/footer/inst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/footer/инст 3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/header/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/header/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/header/user01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/header/user_negate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/img-reviews/06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/products/basket-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/slide-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/img/stocks/slide-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/classes/static/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/hibernate-validator-6.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/javassist-3.24.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/micrometer-commons-1.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/micrometer-observation-1.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/ognl-3.2.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/slf4j-api-1.7.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-aop-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-aop-6.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-beans-5.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-beans-6.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-context-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-core-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-commons-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-commons-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-jdbc-2.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-jdbc-2.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-jpa-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-relational-2.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-data-relational-2.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-expression-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-expression-6.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-jcl-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-jdbc-5.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-orm-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-security-config-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-security-core-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-security-crypto-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-security-web-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-tx-5.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-web-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/spring-webmvc-5.3.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/thymeleaf-3.1.0.M2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/thymeleaf-spring5-3.1.0.M2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/people/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/insertImage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/insertProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/pay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/price_range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/productPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/WEB-INF/views/shop/reviews.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/buypage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/categories.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/insertImage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/pay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/registration.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/reviews.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/buepage-img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/buepage-img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/buepage-img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/buepage-img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/buepage-img/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/children/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/footer/inst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/footer/инст 3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/header/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/header/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/header/user01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/header/user_negate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/img-reviews/06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/products/basket-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/slide-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/img/stocks/slide-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YourStyle/resources/static/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/JdbcConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/ImageDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/ProductDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/interfaces/ImageDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/interfaces/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/ImageRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mappers/ProductRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/models/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/buypage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/categories.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/insertImage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/pay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/registration.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/reviews.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/buepage-img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/buepage-img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/buepage-img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/buepage-img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/buepage-img/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/children/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/footer/inst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/footer/инст 3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/header/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/header/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/header/user01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/header/user_negate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/img-reviews/06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/products/basket-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/slide-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/stocks/slide-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/slick.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,8 +345,8 @@
         <option value="Interface" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,31 +402,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Timur/Desktop/JavaPrograms/YourStyle&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;aaf0e85da642baeb4746379ffeebf432&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Timur/Desktop/JavaPrograms/YourStyle",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rest.client.default.execution.environment": "dev",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "aaf0e85da642baeb4746379ffeebf432"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Timur\Desktop\JavaPrograms\YourStyle\src\main\webapp\resources\static\img\products" />
@@ -261,7 +450,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-20">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="YourStyle:war exploded">
           <settings>
@@ -270,7 +460,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="fbde7e56-8d05-452e-957d-577461f0106a" />
+        <option name="BASE_DIRECTORY_NAME" value="a261007d-0b6f-4434-b30c-b87e2dfa0c99" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -278,7 +468,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61765" />
+        <option name="DEBUG_PORT" value="53998" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -296,6 +486,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -334,6 +539,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Timur\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="79db9a61-db8b-4369-9241-e01c32d2e80e" name="Changes" comment="" />
@@ -489,6 +697,23 @@
       <workItem from="1679259998909" duration="3685000" />
       <workItem from="1679264428045" duration="14619000" />
       <workItem from="1679401276726" duration="1332000" />
+      <workItem from="1679512840701" duration="446000" />
+      <workItem from="1679562879464" duration="3092000" />
+      <workItem from="1679567523573" duration="1080000" />
+      <workItem from="1679569640824" duration="59000" />
+      <workItem from="1679571848332" duration="307000" />
+      <workItem from="1679582880029" duration="312000" />
+      <workItem from="1679630092573" duration="14797000" />
+      <workItem from="1679692386068" duration="348000" />
+      <workItem from="1679738821697" duration="11961000" />
+      <workItem from="1679911402404" duration="14747000" />
+      <workItem from="1680087767008" duration="7916000" />
+      <workItem from="1680095732531" duration="1494000" />
+      <workItem from="1680173233736" duration="13363000" />
+      <workItem from="1680425084408" duration="5319000" />
+      <workItem from="1680601217663" duration="8065000" />
+      <workItem from="1680779942917" duration="3645000" />
+      <workItem from="1680863527775" duration="25139000" />
     </task>
     <task id="LOCAL-00001" summary="first project">
       <created>1678225317412</created>
@@ -539,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678843714735</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Security start">
+      <created>1679512964028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679512964029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +782,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -564,7 +802,8 @@
     <MESSAGE value="new styles" />
     <MESSAGE value="new categories" />
     <MESSAGE value="new categories for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="new categories for mobile" />
+    <MESSAGE value="Security start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security start" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

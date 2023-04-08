@@ -1,17 +1,16 @@
 package org.example.models;
 
 import org.springframework.data.relational.core.mapping.Column;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.data.annotation.Id;
 import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.util.Set;
 @Entity
 @Table(name = "role")
-public class UserRole implements GrantedAuthority{
+public class Role implements GrantedAuthority{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long roleId;
@@ -22,14 +21,14 @@ public class UserRole implements GrantedAuthority{
     @ManyToMany(mappedBy = "roles")
     private Set<User> users;
 
-    public UserRole() {
+    public Role() {
     }
 
-    public UserRole(Long roleId) {
+    public Role(Long roleId) {
         this.roleId = roleId;
     }
 
-    public UserRole(Long roleId, String roleName) {
+    public Role(Long roleId, String roleName) {
         this.roleId = roleId;
         this.roleName = roleName;
     }

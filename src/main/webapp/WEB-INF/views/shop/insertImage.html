@@ -17,8 +17,13 @@
 <label class="drop-container" id="dropzone">
     <span class="drop-title" >Drop files here</span>
     or
-    <form id="demo-upload" th:method="POST" action="#" th:action="@{/shop/product/insert/image}" enctype="multipart/form-data">
+    <form id="demo-upload" th:method="POST" action="#" th:action="@{/admin/product/insert/image}" enctype="multipart/form-data" th:object="${image}">
         <!--    <p>Enter number: <input th:type="number" th:field="*{image_number}" /></p>-->
+        <input th:type="hidden" th:name="image" th:field="*{product_id}" th:value="${image.product_id}"/>
+        <label class="checkbox style-h">
+            <input th:type="checkbox" th:value="1" th:field="*{image_main}"/>
+            <div class="checkbox__body">Главное</div>
+        </label>
 
         <input th:type="file" th:name="file"  />
 <!--        <input th:if="${imageDAO.getMainImageById(id).isEmpty()}" th:type="radio" th:name="main" th:value=1>-->

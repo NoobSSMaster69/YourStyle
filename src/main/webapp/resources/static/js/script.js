@@ -34,6 +34,17 @@ $('.links__title').click(function(event){
   
 });
 
+$('.big_slider-children__slider').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows:false,
+    // initialSlide: 3,
+    // infinite: false,
+    // adaptiveHeight:true,
+    centerMode:true,
+    slidesToShow:1,
+    slidesToScroll:1
+});
 
 $('.buypage__slider').slick({
     arrows:true,
@@ -174,4 +185,3 @@ function calcCost(){
     document.getElementById('infoProduct').style.display = 'flex';
 
 }
-

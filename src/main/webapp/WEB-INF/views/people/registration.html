@@ -25,18 +25,21 @@
                     </div>
 <!--                       th:action="@{/person/registration}" th:object="person" th:method="POST"-->
                     <div class="registration__form">
-                        <form  class ='form' action="#" >
-                
-                            <input th:type="text" th:name ='username' style="font-size: 20px;" th:placeholder="Username">
+                        <form  class ='form' autocomplete="off" action="#" th:action="@{/registration}"
+                               th:object="${user}" method="post"  role="form" >
+<!--                            th:name ='userLogin'-->
+                            <input th:type="text" th:field="*{userLogin}" style="font-size: 20px;" th:placeholder="Username">
 
-                    
-                            <input th:type="text" th:name ='mail' style="font-size: 20px;" th:placeholder="E-mail">
+<!--                            th:name ='mail'-->
+<!--                            <input th:type="text" th:field="*{userEmail}" style="font-size: 20px;" th:placeholder="E-mail">-->
 
-                         
-                            <input th:type="text" th:name ='password' style="font-size: 20px;" th:placeholder="Password">
+<!--                            th:name ='password'-->
+                            <input th:type="text" th:field="*{userPass}" style="font-size: 20px;" th:placeholder="Password">
 
-                            
-<!--                            <input th:type="text" th:name ='retype' style="font-size: 20px;" th:placeholder="Retype password">-->
+                            <input type="checkbox"  value = "1" th:field="*{userEnable}">
+                            <div class="checkbox__text">Enable User </div>
+
+                            <!--                            <input th:type="text" th:name ='retype' style="font-size: 20px;" th:placeholder="Retype password">-->
 
                             <div class="registration__buttons">
                                 <button class = "registration__submit" type="submit">Зарегистрироваться</button>

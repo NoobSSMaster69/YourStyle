@@ -46,16 +46,16 @@ public class ShopController {
     }
 
 
-    @GetMapping("/product/insert")
-    public String insertProductPage(@ModelAttribute("product") Product product){return "shop/insertProduct";}
-
-    @PostMapping("/product/insert")
-    public String saveProduct(@ModelAttribute("product") @Valid Product product,
-                              BindingResult bindingResult){
-//        if (bindingResult.hasErrors()) return "redirect:/shop/product/insert";
-        productDAO.createProduct(product);
-        product.setProduct_id(productDAO.getIdByProduct(product));
-        return "redirect:/shop/product/insert/image/" + product.getProduct_id();
-    }
+//    @GetMapping("/product/insert")
+//    public String insertProductPage(@ModelAttribute("product") Product product){return "shop/insertProduct";}
+//
+//    @PostMapping("/product/insert")
+//    public String saveProduct(@ModelAttribute("product") @Valid Product product,
+//                              BindingResult bindingResult){
+////        if (bindingResult.hasErrors()) return "redirect:/shop/product/insert";
+//        productDAO.createProduct(product);
+//        product.setProduct_id(productDAO.getIdByProduct(product));
+//        return "redirect:/shop/product/insert/image/" + product.getProduct_id();
+//    }
 
 }

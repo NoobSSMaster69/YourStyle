@@ -6,6 +6,7 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+
 public class Product {
     @Id
     private int product_id;

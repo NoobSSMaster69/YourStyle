@@ -1,19 +1,23 @@
 package org.example.config;
 
+import jakarta.servlet.ServletRegistration;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
-import javax.servlet.MultipartConfigElement;
+import jakarta.servlet.Filter;
+import jakarta.servlet.MultipartConfigElement;
+
+
 
 public class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-    private static final String LOCATION = "C:/mytemp/";
-    private static final long MAX_FILE_SIZE = 1024 * 1024 * 25;//25MB
-    private static final long MAX_REQUEST_SIZE = 1024 * 1024 * 30;//30MB
-    private static final int FILE_SIZE_THRESHOLD = 0;
+    @Override
+    protected void customizeRegistration(ServletRegistration.Dynamic registration) {
+        registration.setMultipartConfig(new MultipartConfigElement("C:\\Users\\Timur\\Desktop\\JavaPrograms\\YourStyle\\target\\YourStyle\\META-INF\\tmp"));
+    }
 
-         @Override
+    @Override
         protected Class<?>[] getRootConfigClasses() {
             return null;
         }

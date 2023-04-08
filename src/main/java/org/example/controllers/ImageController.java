@@ -13,8 +13,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 
-import javax.validation.Valid;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
@@ -49,28 +49,28 @@ public class ImageController {
 
 
 
-    @RequestMapping(value = "/shop/product/insert/image", method = RequestMethod.GET)
-    public String submitGet(){
-//        @PathVariable("person_id") int person_id,
-//        Model model
-//        model.addAttribute("id", person_id);
-//        model.addAttribute("imageDAO", imageDAO);
-        return "shop/insertImage";
-    }
-
-    @RequestMapping(value = "/shop/product/insert/image", method = RequestMethod.POST)
-    public String submit(@RequestParam("file") MultipartFile file
-//            ,
-//                         @RequestParam("main") boolean main,
-//                         @ModelAttribute("ident") int ident
-    ) throws IOException {
-        Image image = new Image();
-        image.setProduct_id(20);
-        image.setImage_data(file);
-        image.setImage_main(false);
-        imageDAO.createImage(image);
-        return "redirect:/shop/product/insert/image";
-    }
+//    @RequestMapping(value = "/admin/product/insert/image", method = RequestMethod.GET)
+//    public String submitGet(){
+////        @PathVariable("person_id") int person_id,
+////        Model model
+////        model.addAttribute("id", person_id);
+////        model.addAttribute("imageDAO", imageDAO);
+//        return "shop/insertImage";
+//    }
+//
+//    @RequestMapping(value = "/admin/product/insert/image", method = RequestMethod.POST)
+//    public String submit(@RequestParam("file") MultipartFile file
+////            ,
+////                         @RequestParam("main") boolean main,
+////                         @ModelAttribute("ident") int ident
+//    ) throws IOException {
+//        Image image = new Image();
+//        image.setProduct_id(7);
+//        image.setImage_data(file);
+//        image.setImage_main(true);
+//        imageDAO.createImage(image);
+//        return "redirect:/shop/product/insert/image";
+//    }
 
 }
 

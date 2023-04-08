@@ -20,17 +20,19 @@
             <div class="login__container">
                 <div class="login__body">
                     <div class="login__registration">
-                        <form class="login__forms" action="#">
+                        <form class="login__forms" autocomplete="off" action="#" th:action="@{/login}"
+                              method="post"  role="form">
 
                             <div class="login__mail">
-                                <div class="text">Email / Phone</div>
-                                <input type="text" name ='mail' style="font-size: 15px;" placeholder="Введите email или телефон">
+                                <div class="text">Login</div>
+                                <input type="text" th:name="userLogin" style="font-size: 15px;" placeholder="Введите Login">
                             </div>
-                            
+
                             <div class="login__password">
                                 <div class="text">Password</div>
-                                <input type="text" name ='password' style="font-size: 15px;"  placeholder="Введите пароль">
+                                <input type="text" th:name ='userPass' style="font-size: 15px;"  placeholder="Введите пароль">
                             </div>
+                            <div th:if="${error != null}" th:text="${error}" style="color: red"></div>
                             <div class="login__checkbox">
                                  <input type="checkbox"  value = '1' name="namecheckbox"> 
                                  <div class="checkbox__text">Remember me </div>
@@ -38,7 +40,7 @@
                             </div>
                             <div class="login__buttons">
                                 <button class = "submit" type="submit">Войти</button>
-                                <a  class = 'registration__link' th:href="@{/people/registration}">Зарегистрироваться</a>
+                                <a  class = 'registration__link' th:href="@{/registration}">Зарегистрироваться</a>
                             </div>
 
                         </form>

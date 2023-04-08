@@ -2,7 +2,6 @@ package org.example.controllers;
 
 import org.example.dao.UserDAOImpl;
 import org.example.models.User;
-import org.example.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/user")
@@ -23,12 +21,6 @@ public class UsersController {
 //    public UsersController(UserDAOImpl personDAOImpl){
 //        this.personDAOImpl=personDAOImpl;
 //    }
-    @Autowired
-    UserService userService;
-    public UsersController(UserService userService) {
-        this.userService = userService;
-    }
-
 //    @GetMapping()
 //    public String peoplePage(Model model){
 //        model.addAttribute("people", personDAOImpl.getAllPersons());
@@ -50,28 +42,4 @@ public class UsersController {
 //    }
 
 
-    @GetMapping("/registration")
-    public String registration(Model model) {
-        model.addAttribute("userForm", new User());
-
-        return "people/registration";
-    }
-
-    @PostMapping("/registration")
-    public String addUser(@ModelAttribute("userForm") @Valid User userForm, BindingResult bindingResult, Model model) {
-
-        if (bindingResult.hasErrors()) {
-            return "people/registration";
-        }
-        if (!userForm.getPassword().equals(userForm.getUserPassConfirm())){
-            model.addAttribute("passwordError", "Пароли не совпадают");
-            return "people/registration";
-        }
-        if (!userService.saveUser(userForm)){
-            model.addAttribute("usernameError", "Пользователь с таким именем уже существует");
-            return "people/registration";
-        }
-
-        return "redirect:/";
-    }
 }

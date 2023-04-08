@@ -21,4 +21,6 @@ public interface ProductDAO {
 
     public int getIdByProduct(Product product);
 
+
+
 }

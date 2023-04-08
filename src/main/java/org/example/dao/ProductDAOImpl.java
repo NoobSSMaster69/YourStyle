@@ -24,7 +24,7 @@ public class ProductDAOImpl implements ProductDAO {
 
     private final String SQL_FIND_PRODUCT = "select * from product where product_id = ?";
     private final String SQL_FIND_ALL_PRODUCT = "select * from product";
-    private final String SQL_FIND_LAST_PRODUCT_ID = "select MAX(product_id) from product";
+    private final String SQL_FIND_LAST_PRODUCT_ID = "SELECT MAX(product_id) FROM product";
     private final String SQl_FIND_ID_BY_PRODUCT = "select product_id from product where product_name=? and category_id=? and product_about=? and product_gender=?";
 //    private final String SQL_INSERT_PRODUCT = "select product_id from product where insert into product(product_id, product_name, category_id, product_about, product_gender) value(default, ?, ?, ?, ?)";
 
@@ -57,6 +57,7 @@ public class ProductDAOImpl implements ProductDAO {
 
     @Override
     public int getLastProductId() {
+        System.out.println(jdbcTemplate.queryForObject(SQL_FIND_LAST_PRODUCT_ID, Integer.class));
         return jdbcTemplate.queryForObject(SQL_FIND_LAST_PRODUCT_ID, Integer.class);
     }
 
